@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+}
+
+#titleArea{
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: aqua;
+    font-family: Andale Mono, monospace;
+}
+
+/*Child selector*/
+header> h1{
+    font-size: 2.5em;
+    color: aqua;
+    text-transform: uppercase;
+}
+header> p{
+    font-size: 1.2em;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+/*Style for top Menu*/
+#topMenu{
+    background-color:greenyellow;
+    padding:10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#topMenu > a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#topMenu > a:hover{
+    background-color: black;
+    color: white;
+}
+#bannerArea{
+    background-image: url(123.jpeg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
