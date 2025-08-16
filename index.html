@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--Ensures the site is responsive on all devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Riara School of Computing Sciences</title>
     <link rel="stylesheet" type="text/css" href="riara.css">
-    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+</head>
 <body>
+
+    <!-- Header Section -->
     <header id="titleArea">
-        <h1>Riara School of computing sciences</h1>
-        <p>Nuturing Innovators</p>
+        <h1>Riara School of Computing Sciences</h1>
+        <p>Nurturing Innovators</p>
     </header>
+
+    <!-- Navigation Menu -->
     <nav id="topMenu">
         <a href="#">Home</a>
         <a href="#">About Us</a>
@@ -18,10 +25,122 @@
         <a href="#">Contact Us</a>
         <a href="#">Gallery</a>
     </nav>
+
     <main>
+        <!-- Banner Area -->
         <div id="bannerArea">
-            
+            <div class="banner-content">
+                <h2>Welcome to Riara School of Computing Sciences</h2>
+                <p>Empowering the next generation of tech innovators</p>
+                <button>Click to view the programs</button>
+            </div>
         </div>
+        <!-- About Section -->
+        <div id="row1">
+            <div class="rowImage">
+                <img src="5688.jpeg">
+            </div>
+            <div class="rowText">
+            <h1>About Riara University Tech School</h1>
+            <p>At Riara School of Computing Sciences, we empower students to become innovative thinkers and skilled professionals in the rapidly evolving world of technology. Our programs are designed to equip learners with both theoretical foundations and hands-on experience in areas such as software engineering, cybersecurity, data science, and web development. We foster a learning environment that encourages creativity, critical thinking, and collaboration. With access to modern labs, industry partnerships, and experienced faculty, our students graduate ready to solve real-world problems and lead the digital future.
+</p>
+</div>
+        </div>
+         <!-- Academic Programs Section -->
+        <section id="academics">
+            <div class="section-container">
+                <h2>Our Academic Programs</h2>
+                <p>Explore our diverse range of programs designed to equip you with the skills needed for a successful career in technology.</p>
+
+                <div class="programs">
+                    <div class="program">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p>Learn the fundamentals of computer science and software development.</p>
+                    </div>
+
+                    <div class="program">
+                        <h3>Diploma in Information Technology</h3>
+                        <p>Gain practical skills in IT support and network management.</p>
+                    </div>
+
+                    <div class="program">
+                        <h3>Certificate in Web Development</h3>
+                        <p>Master the art of building dynamic and responsive websites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Facilities Section-->
+        <section id="facilities">
+            <div class="section-container">
+                <h2>Our Facilities and Resources</h2>
+                <p>We provide state-of-the-art labs, high-speed internet, and access to modern technologies that support practical learning and research.</p>
+                
+                <details>
+                <summary>Click to view our facilities</summary>
+                <ul>
+                    <li>Computer labs with high-end machines</li>
+                    <li>Access to a robotics lab</li>
+                    <li>Digital Library and E-resources</li>
+                    <li>Wi-fi Access</li>
+                </ul>
+            </details>
+            </div>
+        </section>
+        <!--Student Life Section-->
+        <section id="studentLife">
+            <div class="section-container">
+                <h2>Student Life and Tech Clubs</h2>
+                <p>Join our vibrant student Community and explore your passion</p>
+                <details>
+                <summary>Click to view our student clubs and activities</summary>
+                <ul>
+                    <li>AI and Robotics lab</li>
+                    <li>Hackathons and coding competitions</li>
+                    <li>Tech Talks and workshops</li>
+                    <li>Community service projects</li>
+                </ul>
+                </details>
+            </div>
+        </section>
+        <!-- Contact Form Section -->
+<section id="contactForm">
+    <div class="section-container">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feel free to reach out. We'll get back to you shortly.</p>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
     </main>
-    </body>
-    </html>
+<!--Footer Section-->
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 Riara School of Computing Sciences. All rights reserved.</p>
+            <p>Follow us on:
+                <a href="#">Facebook</a>,
+                <a href="#">LinkedIn</a>,
+                <a href="#">Twitter</a>,
+                <a href="#">Instagram</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
